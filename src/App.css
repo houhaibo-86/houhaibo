@@ -1,0 +1,106 @@
+/* @import '~antd/dist/antd.css'; */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+#root, .ant-layout{
+  height: 100%;
+}
+
+
+#components-layout-demo-custom-trigger .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  background: rgba(255,255,255,.2);
+  margin: 16px;
+}
+
+#root > div{
+  height: 100%;
+}
+.ant-layout-header{
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+.logo{
+  width: 200px;
+  background: #03a093;
+}
+.ant-layout-header h1{
+  color: #fff;
+}
+.ant-menu-item{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.i-class{
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+.divHeight{
+  height: 1000px;
+}
+.ant-menu-item > a{
+  display: inline-block
+}
+
+.trigger{
+  font-size: 18px;
+}
+
+.ant-menu-inline-collapsed > .ant-menu-item .anticon + a{
+    max-width: 0;
+    display: inline-block;
+    opacity: 0;
+}
+.ant-menu-item > a{
+  display: inline-block !important;
+}
+
+.trigger{
+  cursor: pointer;
+}
